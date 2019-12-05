@@ -1,0 +1,50 @@
+
+/**
+ *
+ * @export
+ * @interface Course
+ */
+export interface Course {
+  /**
+   * 课程代码
+   * @type {string}
+   * @memberof Course
+   */
+  code: string;
+  /**
+   * 创建时间
+   * @type {Date}
+   * @memberof Course
+   */
+  createTime?: Date;
+  /**
+   * 课程对应学分
+   * @type {number}
+   * @memberof Course
+   */
+  credit: number;
+  /**
+   * id
+   * @type {number}
+   * @memberof Course
+   */
+  id : number;
+  /**
+   * 课程名称
+   * @type {string}
+   * @memberof Course
+   */
+  name : string;
+  /**
+   * 课程性质
+   * @type {string}
+   * @memberof Course
+   */
+  nature: string;
+  /**
+   * 更新时间
+   * @type {Date}
+   * @memberof Course
+   */
+  updateTime?: Date;
+}
